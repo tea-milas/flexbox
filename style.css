@@ -69,26 +69,40 @@ main {
 }
 
 article {
-    height: 472px;
+    min-height: 355px;
     width: 30%;
 }
-
-.panel > p {
-    padding: 10px;
-}
-
 
 .panel {
     border: 2px solid black;
     padding: 30px;
-    margin: 10px;
+    margin: 5px 10px;
     
 }
 
-.panel > ul {
-    margin: 5px 40px;
+.square {
+    width: 70px;
+    height: 70px;
+    margin: 0px 10px;
+    background-color: black;
+    color: white;
 }
 
-.panel > ul > li {
-    margin-bottom: 5px;
+#panel1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#panel2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#panel3 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row-reverse;
 }
